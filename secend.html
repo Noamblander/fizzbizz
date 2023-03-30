@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work</title>
+    <link rel="stylesheet" href="index.css"> <style>
+        /* Style for the link */
+        .next-page-link {
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          color: white;
+          background-color: blue;
+          padding: 10px 20px;
+          text-decoration: none;
+        }
+      </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body style="background-color: skyblue;">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+        <div style="margin-top: 20px; ">for the smallest number in [6,8,5,17,2,25]</div>
+        <input type="button" class="btn btn-primary btn-lg" value="check" onclick="smallest()" style="margin-top: 10px;"/>
+        
+        <div style="margin-top: 20px;">for the biggest number in [6,8,5,17,2,25]</div>
+        <input type="button" class="btn btn-primary btn-lg" value="check" onclick="biggest()" style="margin-top: 10px;"/>
+        
+        <div style="margin-top: 20px;">for the average [6,8,5,17,2,25]</div>
+        <input type="button" class="btn btn-primary btn-lg" value="check" onclick="avarage()" style="margin-top: 10px;"/>
+        
+        <div style="margin-top: 20px;">for the average of all numbers under 17 in [6,8,5,17,2,25]</div>
+        <input type="button" class="btn btn-primary btn-lg" value="check" onclick="under17()" style="margin-top: 10px;"/>
+        
+      </div>
+
+
+      <a href="index.html" class="next-page-link">first Page</a>
+
+
+    <script src="hw2.js"></script>
+    <script src="hw.js"></script>
+    
+</body>
+</html>
